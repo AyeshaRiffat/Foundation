@@ -18,7 +18,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-emerald-600 text-white py-16 pt-32">
+    <section className="relative overflow-hidden bg-emerald-600 text-white py-16 pt-24"> {/* Adjusted pt-32 to pt-24 */}
       {/* Background image and overlay */}
       <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url("https://images.pexels.com/photos/6646913/pexels-photo-6646913.jpeg")' }} />
       <div className="absolute inset-0 bg-emerald-900/80" />
